@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name ESP_8266_01)(type Legacy)(uri C:/Users/simil/OneDrive/Documents/Github/WirelessEStop_Hardware/WirelessEStop_Tx/ESP_8266_01.lib)(options "")(descr ""))
+  (lib (name ESP_8266_01)(type Legacy)(uri C:/Users/simil/OneDrive/Documents/Github/WirelessEStop_Hardware/Libraries/Symbols/ESP_8266_01.lib)(options "")(descr ""))
 )

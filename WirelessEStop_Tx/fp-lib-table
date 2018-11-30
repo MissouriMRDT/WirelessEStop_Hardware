@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name WirelessEStop)(type KiCad)(uri C:/Users/simil/OneDrive/Documents/Github/WirelessEStop_Hardware/WirelessEStop.pretty)(options "")(descr ""))
+  (lib (name WirelessEStop)(type KiCad)(uri C:/Users/simil/OneDrive/Documents/Github/WirelessEStop_Hardware/Libraries/Packages/WirelessEStop.pretty)(options "")(descr ""))
 )
