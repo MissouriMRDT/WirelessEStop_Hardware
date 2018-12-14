@@ -31,7 +31,7 @@ U 1 1 5BD233CE
 P 5900 2550
 F 0 "SW3" H 5900 2785 50  0000 C CNN
 F 1 "Master Power" H 5900 2694 50  0000 C CNN
-F 2 "WirelessEStop:SlideSwitch_SPDT" H 5900 2550 50  0001 C CNN
+F 2 "WirelessEStop:SlideSwitch_SPST" H 5900 2550 50  0001 C CNN
 F 3 "" H 5900 2550 50  0001 C CNN
 	1    5900 2550
 	1    0    0    -1  
