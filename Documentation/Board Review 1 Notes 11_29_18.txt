@@ -1,31 +1,42 @@
-Delete the extra files to clean up the folder
-Put the .pretty in the Libraries folder. Need to remap this and rename it Libraries. A Packages folder for footprints and a Symbols folder for   
-Move the GND with the 9V battery connector and move text to the right
-Use a power flag instead of the 3.3V 
-Get rid of the short connectors between the GNDs and point them down
-R3 resistor needs to be 500ohm
-Remapping consist of removing it and then going and selecting it again
-Anchor points in bottom left hand corner, move reference to bottom right corner
-Add text to Tx that says D1 for digital pin 1
+
+Completed:
+Delete the extra files to clean up the folder $$$
+Put the .pretty in the Libraries folder. Need to remap this and rename it Libraries. A Packages folder for footprints and a Symbols folder for symbols $$$   
+Move the GND with the 9V battery connector and move text to the right $$$
+R3 resistor needs to be 500ohm $$$
+Remapping consist of removing it and then going and selecting it again $$$
+Anchor points in bottom left hand corner, move reference to bottom right corner $$$
+Add text to Tx that says D1 for digital pin 1 $$$
+Fill the background of the symbol for ESP $$$
+D6_SPST needs to replace the MOMSwitch_SPDT as the name $$$
+Change the numbers on the MOM switch so that they match the data sheet PCB layout $$$
+F.Fab will make them as notes instead of silkscreen. Convert them to that so it won't show up on the board $$$
+Make the text as silkcreen for the names of the footprints $$$
+Pin numbers on the symbol needs to match the footprint $$$
+Change the slide switch via dimensions to be .06 inches and .12 inches $$$
+Text in the F.Fab layer saying where the on and the off positions of the slide switch are $$$
+SlideSwitch_SPST $$$
+Change the vias on the MOM switch to .9mm and the outside to 1.8mm or around there $$$
+On the toggle switch make the vias .15 outside and .08189 inside (inches) $$$
+
+
+
+Maybe Completed:
+Use a power flag instead of the 3.3V ???
+Get rid of the short connectors between the GNDs and point them down ???
+Label some of the wires with net labels ???
+Need a three position toggle switch in the schematic - SW_SPDT_MSM is the symbol and connect both of the outsides to the same thing ???
+
+
+To Do:
 New section with just the LEDs 
-Label some of the wires with net labels
-One LED connected to the power plane (3.3V) connected to power flag
-One for momentary and one for maintain 
+One LED connected to the power plane (3.3V) connected to power flag ???
+One for momentary and one for maintain ???
 Text next to the LEDs based on which color each one is - presentation on which color is which on Hardware Architecture Standards-2019 presentation in Drive
 Additional LED that is red and lights up when the Rover E-stops. Plan is around 330ohm 
-Fill the background of the symbol for ESP
-F.Fab will make them as notes instead of silkscreen. Convert them to that so it won't show up on the board
-Make the text as silkcreen for the names of the footprints
-Pin numbers on the symbol needs to match the footprint
-Change the numbers on the MOM switch so that they match the data sheet PCB layout
-D6_SPST needs to replace the MOMSwitch_SPDT as the name
-Change the slide switch via dimensions to be .06 inches and .12 inches
-Text in the F.Fab layer saying where the on and the off positions of the slide switch are
-SlideSwitch_SPST 
-Change the vias on the MOM switch to .9mm and the outside to 1.8mm or around there 
-On the toggle switch make the vias .15 outside and .08189 inside (inches)
-Need a three position toggle switch in the schematic - SW_SPDTMSM is the symbol and connect both of the outsides to the same thing
-Try to make two different layouts - 
+
+Receiver Work:
 BSS138PW.115 is the Mosfet for the transmitter
 The symbol is Q_NMOS_GSD
 Need to make the board for the receiver. 
+Will need ESP and have to figure out how everything hooks up
