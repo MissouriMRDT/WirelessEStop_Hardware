@@ -1,4 +1,66 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP_8266_01:ESP_8266_01 U?
+U 1 1 5C7D874C
+P 6050 2200
+F 0 "U?" H 6250 2925 50  0000 C CNN
+F 1 "ESP_8266_01" H 6250 2834 50  0000 C CNN
+F 2 "" H 6200 2800 50  0001 C CNN
+F 3 "" H 6200 2800 50  0001 C CNN
+	1    6050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C7D87F5
+P 6700 1650
+F 0 "#PWR?" H 6700 1500 50  0001 C CNN
+F 1 "+3.3V" H 6715 1823 50  0000 C CNN
+F 2 "" H 6700 1650 50  0001 C CNN
+F 3 "" H 6700 1650 50  0001 C CNN
+	1    6700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1700 6700 1700
+Wire Wire Line
+	6700 1700 6700 1650
+$Comp
+L Device:R R?
+U 1 1 5C7D8A7C
+P 5850 2500
+F 0 "R?" H 5920 2546 50  0000 L CNN
+F 1 "R" H 5920 2455 50  0000 L CNN
+F 2 "" V 5780 2500 50  0001 C CNN
+F 3 "~" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7D8B17
+P 5850 2750
+F 0 "#PWR?" H 5850 2500 50  0001 C CNN
+F 1 "GND" H 5855 2577 50  0000 C CNN
+F 2 "" H 5850 2750 50  0001 C CNN
+F 3 "" H 5850 2750 50  0001 C CNN
+	1    5850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2650 5850 2750
 $EndSCHEMATC
