@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 55)
+    (drawings 56)
     (tracks 137)
     (zones 0)
     (modules 25)
@@ -1132,6 +1132,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 20.32 20.32) (drill 20.32) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Wireless E-Stop Transmitter\nMars Rover, Valkyrie\nMissouri S&T\nAndrew Simily" (at 146.685 128.651) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text +3.3V (at 127.127 95.885 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
