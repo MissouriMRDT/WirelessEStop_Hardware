@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCP73833-BZI/UN
+#
+DEF MCP73833-BZI/UN U 0 40 Y Y 1 L N
+F0 "U" -194 346 50 H V L BNN
+F1 "MCP73833-BZI/UN" -243 -717 50 H V L BNN
+F2 "SOP50P490X110-10N" 0 0 50 H I L BNN
+F3 "Microchip" 0 0 50 H I L BNN
+F4 "MSOP-10 Microchip" 0 0 50 H I L BNN
+F5 "Linear Charge Management Controller Li-Ion/Li-Pol 1mA 4.2V/4.35V/4.4V/4.5V 10-Pin MSOP Tube" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "MCP73833-BZI/UN" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -600 300 -600 -600 N
+P 2 0 0 16 -600 -600 600 -600 N
+P 2 0 0 16 600 -600 600 300 N
+P 2 0 0 16 600 300 -600 300 N
+X PROG 6 -800 100 200 R 40 40 0 0 I 
+X *PG 7 -800 0 200 R 40 40 0 0 I 
+X THERM 8 -800 -100 200 R 40 40 0 0 I 
+X VDD_2 1 -800 -200 200 R 40 40 0 0 W 
+X VDD 2 -800 -300 200 R 40 40 0 0 W 
+X VSS 5 -800 -400 200 R 40 40 0 0 P 
+X VBAT_2 9 800 -400 200 L 40 40 0 0 O 
+X VBAT 10 800 -300 200 L 40 40 0 0 O 
+X STAT1 3 800 0 200 L 40 40 0 0 O 
+X STAT2 4 800 100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
