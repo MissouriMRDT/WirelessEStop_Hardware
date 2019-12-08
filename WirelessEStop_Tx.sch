@@ -239,9 +239,9 @@ Wire Wire Line
 	10200 4950 10250 4950
 Wire Wire Line
 	10200 5050 10250 5050
-Text GLabel 10250 4950 2    39   Output ~ 0
+Text GLabel 10250 4950 2    39   Input ~ 0
 Charger_IND_1
-Text GLabel 10250 5050 2    39   Output ~ 0
+Text GLabel 10250 5050 2    39   Input ~ 0
 Charger_IND_2
 Text GLabel 8550 5050 0    39   Output ~ 0
 Charger_IND_PG
@@ -281,23 +281,12 @@ Wire Notes Line
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5DEE0F97
-P 2550 5300
-F 0 "SW?" H 2550 5585 50  0000 C CNN
-F 1 "SW_Push" H 2550 5494 50  0000 C CNN
-F 2 "" H 2550 5500 50  0001 C CNN
-F 3 "~" H 2550 5500 50  0001 C CNN
-	1    2550 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_DIP_x02 SW?
-U 1 1 5DEE2995
-P 3800 5300
-F 0 "SW?" H 3800 5667 50  0000 C CNN
-F 1 "SW_DIP_x02" H 3800 5576 50  0000 C CNN
-F 2 "" H 3800 5300 50  0001 C CNN
-F 3 "~" H 3800 5300 50  0001 C CNN
-	1    3800 5300
+P 2300 5050
+F 0 "SW?" H 2300 5335 50  0000 C CNN
+F 1 "SW_Push" H 2300 5244 50  0000 C CNN
+F 2 "" H 2300 5250 50  0001 C CNN
+F 3 "~" H 2300 5250 50  0001 C CNN
+	1    2300 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -627,4 +616,15 @@ Wire Wire Line
 Wire Wire Line
 	1250 5050 1550 5050
 NoConn ~ 6050 3050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DF7A0B6
+P 800 5600
+F 0 "J?" V 800 5350 50  0000 C CNN
+F 1 "Conn_01x02" V 950 5250 50  0000 L CNN
+F 2 "" H 800 5600 50  0001 C CNN
+F 3 "~" H 800 5600 50  0001 C CNN
+	1    800  5600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
