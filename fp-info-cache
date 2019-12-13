@@ -1,4 +1,4 @@
-17195758937724207
+17205215097515799
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2211,6 +2211,13 @@ SMD 8540
 0
 4
 4
+CH340E
+MSOP10
+
+
+0
+10
+10
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -44218,6 +44225,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DRV2605LDGSR
+SOP50P490X110-10N
+DRV2605LDGSR-1
+Integrated Circuit
+0
+10
+10
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -51470,6 +51484,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP73831T-2ACI_OT
+SOT95P280X145-5N
+
+
+0
+5
+5
 MRDT_Actives
 IRLS3034_TO-263-7_P
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
@@ -69817,6 +69838,13 @@ rotary encoder
 0
 5
 4
+SOIC127P600X175-8N
+SOIC127P600X175-8N
+
+
+0
+8
+8
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -71210,6 +71238,13 @@ Logo WEEE
 0
 0
 0
+TPS73633DBVR
+SOT95P280X145-5N
+
+
+0
+5
+5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -75641,6 +75676,13 @@ transformer flyback
 0
 10
 10
+U.FL-R-SMT_01_
+HRS_U.FL-R-SMT(01)
+
+
+0
+3
+3
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
