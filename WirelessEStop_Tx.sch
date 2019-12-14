@@ -67,17 +67,6 @@ F 3 "~" H 2700 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR013
-U 1 1 5DE96AF6
-P 3550 1850
-F 0 "#PWR013" H 3550 1700 50  0001 C CNN
-F 1 "+3.3V" H 3565 2023 50  0000 C CNN
-F 2 "" H 3550 1850 50  0001 C CNN
-F 3 "" H 3550 1850 50  0001 C CNN
-	1    3550 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR016
 U 1 1 5DE99B8F
 P 4500 3350
@@ -2280,4 +2269,8 @@ Text GLabel 5950 5300 1    39   Input ~ 0
 IND_LowBattery
 Text Notes 7750 5900 1    30   ~ 0
 Pink LED
+Wire Wire Line
+	3550 1850 2400 1850
+Wire Wire Line
+	2400 1850 2400 2400
 $EndSCHEMATC
