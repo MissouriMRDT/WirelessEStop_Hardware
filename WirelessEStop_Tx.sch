@@ -134,7 +134,7 @@ Wire Wire Line
 	9900 1500 9950 1500
 Wire Wire Line
 	9900 1600 9950 1600
-Text GLabel 9950 1500 2    39   Output ~ 0
+Text GLabel 9950 1500 2    39   Input ~ 0
 RXD
 Text GLabel 9950 1600 2    39   Output ~ 0
 TXD
@@ -157,10 +157,6 @@ F 3 "" H 8550 1650 50  0001 C CNN
 	1    8550 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 3900 1900 1    39   Input ~ 0
-TXD
-Text GLabel 4000 1900 1    39   Input ~ 0
-RXD
 Wire Wire Line
 	3900 1950 3900 1900
 Wire Wire Line
@@ -533,7 +529,7 @@ L Device:R R18
 U 1 1 5E106BAB
 P 10350 4050
 F 0 "R18" V 10250 4050 50  0000 C CNN
-F 1 "2k" V 10350 4050 50  0000 C CNN
+F 1 "2k2" V 10350 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10280 4050 50  0001 C CNN
 F 3 "~" H 10350 4050 50  0001 C CNN
 	1    10350 4050
@@ -678,7 +674,7 @@ $Comp
 L Device:R R3
 U 1 1 5E381E5E
 P 2350 5600
-F 0 "R3" V 2250 5600 50  0000 C CNN
+F 0 "R3" H 2250 5600 50  0000 C CNN
 F 1 "1k" V 2350 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2280 5600 50  0001 C CNN
 F 3 "~" H 2350 5600 50  0001 C CNN
@@ -691,7 +687,7 @@ $Comp
 L Device:R R4
 U 1 1 5E388BBF
 P 2550 5600
-F 0 "R4" V 2450 5600 50  0000 C CNN
+F 0 "R4" H 2450 5600 50  0000 C CNN
 F 1 "10k" V 2550 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 5600 50  0001 C CNN
 F 3 "~" H 2550 5600 50  0001 C CNN
@@ -730,8 +726,6 @@ Wire Wire Line
 	3100 5400 3200 5400
 Wire Wire Line
 	2350 5400 2450 5400
-Wire Wire Line
-	2450 5150 2450 5400
 Connection ~ 2450 5400
 Wire Wire Line
 	2450 5400 2550 5400
@@ -915,10 +909,6 @@ F 3 "~" H 1500 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 5250 1900 5250
-Wire Wire Line
-	1900 5250 1900 5150
-Wire Wire Line
 	1700 5450 1900 5450
 Wire Wire Line
 	1900 5450 1900 5550
@@ -928,7 +918,7 @@ $Comp
 L Device:R R2
 U 1 1 5E342249
 P 2000 5350
-F 0 "R2" V 1900 5350 50  0000 C CNN
+F 0 "R2" H 1900 5350 50  0000 C CNN
 F 1 "1k" V 2000 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1930 5350 50  0001 C CNN
 F 3 "~" H 2000 5350 50  0001 C CNN
@@ -1466,48 +1456,6 @@ Wire Wire Line
 Connection ~ 2900 1250
 Wire Wire Line
 	2900 1250 3300 1250
-$Comp
-L power:+3.3V #PWR037
-U 1 1 5F784180
-P 1900 1950
-F 0 "#PWR037" H 1900 1800 50  0001 C CNN
-F 1 "+3.3V" H 2000 2100 50  0000 R CNN
-F 2 "" H 1900 1950 50  0001 C CNN
-F 3 "" H 1900 1950 50  0001 C CNN
-	1    1900 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 5F784817
-P 1900 2200
-F 0 "C10" H 1700 2200 50  0000 L CNN
-F 1 "10uF" H 1650 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 2050 50  0001 C CNN
-F 3 "~" H 1900 2200 50  0001 C CNN
-	1    1900 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5F784F3D
-P 2250 2200
-F 0 "C11" H 2050 2200 50  0000 L CNN
-F 1 ".1uF" H 2000 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2288 2050 50  0001 C CNN
-F 3 "~" H 2250 2200 50  0001 C CNN
-	1    2250 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 1950 1900 2000
-Wire Wire Line
-	1900 2000 2250 2000
-Wire Wire Line
-	2250 2000 2250 2050
-Connection ~ 1900 2000
-Wire Wire Line
-	1900 2000 1900 2050
 Connection ~ 2400 2400
 Wire Wire Line
 	2400 3100 2400 3400
@@ -1563,7 +1511,7 @@ Wire Wire Line
 Text GLabel 2450 7450 0    39   Input ~ 0
 SW_Flash
 Text Notes 2300 7100 0    79   ~ 16
-Flash Mode
+Software Flash
 $Comp
 L Switch:SW_DIP_x01 SW5
 U 1 1 5E2ABD63
@@ -1618,8 +1566,6 @@ Wire Wire Line
 	1750 7500 1950 7500
 Wire Notes Line
 	3500 4300 3500 7900
-Wire Wire Line
-	1900 5150 2450 5150
 Text GLabel 3150 6750 2    39   Output ~ 0
 Reg_In
 Wire Wire Line
@@ -1638,7 +1584,7 @@ $EndComp
 Text Notes 2300 6400 0    79   ~ 16
 Toggle Power
 Text Notes 550  6400 0    79   ~ 16
-Arm Switch
+Arming Switch
 Wire Notes Line
 	6967 6537 5701 6537
 Wire Notes Line
@@ -2018,8 +1964,6 @@ Wire Wire Line
 	8200 6200 8200 6100
 Wire Wire Line
 	8200 5800 8200 5700
-Wire Wire Line
-	8200 5400 8200 5300
 $Comp
 L Device:R R27
 U 1 1 5FA12902
@@ -2058,7 +2002,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 5800 8450 5700
 Wire Wire Line
-	8450 5400 8450 5300
+	8200 5400 8200 5300
 $Comp
 L Device:R R28
 U 1 1 5F9E8A51
@@ -2125,8 +2069,6 @@ I2C_SDA
 Text GLabel 6950 5300 1    39   Input ~ 0
 Motor+
 Text GLabel 8200 5300 1    39   Input ~ 0
-TXD
-Text GLabel 8450 5300 1    39   Input ~ 0
 RXD
 Text GLabel 6450 5300 1    39   Input ~ 0
 IND_Software
@@ -2274,18 +2216,92 @@ Wire Wire Line
 	2400 1900 3500 1900
 Connection ~ 3500 1900
 Wire Wire Line
-	3500 1900 3550 1900
-Wire Wire Line
 	3500 1900 3600 1900
-Wire Wire Line
-	1900 2350 1900 2400
-Wire Wire Line
-	1900 2400 2250 2400
-Wire Wire Line
-	2250 2350 2250 2400
-Connection ~ 2250 2400
-Wire Wire Line
-	2250 2400 2400 2400
 Text GLabel 6700 5300 1    39   Input ~ 0
 SW_Arm
+Wire Wire Line
+	1850 5250 1850 4950
+Wire Wire Line
+	1850 4950 2450 4950
+Wire Wire Line
+	2450 4950 2450 5400
+Wire Wire Line
+	1700 5250 1850 5250
+Text Notes 7750 7000 0    197  ~ 39
+Dan Napierkowski
+Wire Wire Line
+	1550 1900 1550 1950
+$Comp
+L Device:C C11
+U 1 1 5F784F3D
+P 1850 2100
+F 0 "C11" H 1850 2200 50  0000 L CNN
+F 1 ".1uF" H 1850 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1888 1950 50  0001 C CNN
+F 3 "~" H 1850 2100 50  0001 C CNN
+	1    1850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5F784817
+P 1550 2100
+F 0 "C10" H 1550 2200 50  0000 L CNN
+F 1 "10uF" H 1550 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 1950 50  0001 C CNN
+F 3 "~" H 1550 2100 50  0001 C CNN
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR037
+U 1 1 5F784180
+P 1850 1850
+F 0 "#PWR037" H 1850 1700 50  0001 C CNN
+F 1 "+3.3V" H 1950 2000 50  0000 R CNN
+F 2 "" H 1850 1850 50  0001 C CNN
+F 3 "" H 1850 1850 50  0001 C CNN
+	1    1850 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 1900 1    39   Input ~ 0
+TXD
+Text GLabel 3900 1900 1    39   Output ~ 0
+RXD
+Connection ~ 2400 1900
+Wire Wire Line
+	1850 1950 1850 1900
+Connection ~ 1850 1900
+Wire Wire Line
+	1850 1900 1550 1900
+Wire Wire Line
+	1550 2250 1550 2300
+Wire Wire Line
+	1850 2300 1850 2250
+$Comp
+L power:GND #PWR0105
+U 1 1 5E41225D
+P 2200 2350
+F 0 "#PWR0105" H 2200 2100 50  0001 C CNN
+F 1 "GND" H 2100 2250 50  0000 C CNN
+F 2 "" H 2200 2350 50  0001 C CNN
+F 3 "" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2300 1850 2300
+Wire Wire Line
+	1850 2300 2200 2300
+Wire Wire Line
+	2200 2300 2200 2350
+Connection ~ 1850 2300
+Wire Wire Line
+	1850 1900 2400 1900
+Wire Wire Line
+	1850 1900 1850 1850
+Text GLabel 8450 5300 1    39   Input ~ 0
+TXD
+Wire Wire Line
+	8450 5400 8450 5300
 $EndSCHEMATC
