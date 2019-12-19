@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:WirelessEStop_Tx-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L U.FL-R-SMT_01_:U.FL-R-SMT(01) J1
+L WirelessEStop_Tx-rescue:U.FL-R-SMT(01)-U.FL-R-SMT_01_ J1
 U 1 1 5DE8D7E8
 P 1100 2100
 F 0 "J1" V 1200 2100 50  0000 C CNN
@@ -80,7 +81,7 @@ Esp Connections
 Text Notes 5900 750  0    118  ~ 24
 Micro-USB Port
 $Comp
-L CH340:CH340 U3
+L WirelessEStop_Tx-rescue:CH340-CH340 U3
 U 1 1 5DEA79E8
 P 9300 1600
 F 0 "U3" H 9300 1975 50  0000 C CNN
@@ -210,7 +211,7 @@ Wire Wire Line
 Text Notes 6950 4600 0    118  ~ 24
 Indicators
 $Comp
-L 25Q128FV:25Q128FV U2
+L WirelessEStop_Tx-rescue:25Q128FV-25Q128FV U2
 U 1 1 5DEF0BBC
 P 6650 3450
 F 0 "U2" H 6000 3750 79  0000 C CNN
@@ -440,7 +441,7 @@ Connection ~ 10200 1400
 Wire Notes Line
 	400  850  11300 850 
 $Comp
-L MCP73831T-2ACI_OT:MCP73831T-2ACI_OT U4
+L WirelessEStop_Tx-rescue:MCP73831T-2ACI_OT-MCP73831T-2ACI_OT U4
 U 1 1 5DFCDF8F
 P 9650 3200
 F 0 "U4" H 9650 3670 50  0000 C CNN
@@ -947,12 +948,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 3800 4050 3800
 Wire Wire Line
-	3700 3550 3700 3900
-Wire Wire Line
-	3700 3900 4050 3900
-Text GLabel 4050 3900 2    39   Output ~ 0
-IND_Arm
-Wire Wire Line
 	3500 3550 3500 3850
 Wire Wire Line
 	3500 3850 2650 3850
@@ -1013,7 +1008,7 @@ Wire Wire Line
 Text GLabel 4700 2400 2    39   Input ~ 0
 SW_Arm
 $Comp
-L TPS73633DBVR:TPS73633DBVR U5
+L WirelessEStop_Tx-rescue:TPS73633DBVR-TPS73633DBVR U5
 U 1 1 5EB322E2
 P 10150 5450
 F 0 "U5" H 10150 5850 50  0000 C CNN
@@ -1208,7 +1203,7 @@ F 3 "" H 3700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DRV2605LDGSR:DRV2605LDGSR IC1
+L WirelessEStop_Tx-rescue:DRV2605LDGSR-DRV2605LDGSR IC1
 U 1 1 5ECF13D4
 P 3800 5800
 F 0 "IC1" H 4500 6065 50  0000 C CNN
@@ -2200,7 +2195,7 @@ Wire Wire Line
 Text GLabel 3250 3950 0    39   Output ~ 0
 IND_Software
 $Comp
-L ESP8266:ESP8266EX U1
+L WirelessEStop_Tx-rescue:ESP8266EX-ESP8266 U1
 U 1 1 5DE888E0
 P 3650 2750
 F 0 "U1" H 4400 3250 60  0000 L CNN
@@ -2304,4 +2299,5 @@ Text GLabel 8450 5300 1    39   Input ~ 0
 TXD
 Wire Wire Line
 	8450 5400 8450 5300
+NoConn ~ 3700 3550
 $EndSCHEMATC
