@@ -1,4 +1,4 @@
-17206790231342082
+17214666825484759
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46199,6 +46199,20 @@ NodeMCU1.0(12-E)
 0
 30
 30
+ESP8266
+Signature
+
+
+0
+0
+0
+ESP8266
+lizard_logo
+
+
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -69852,6 +69866,27 @@ SOIC127P600X175-8N
 0
 8
 8
+SamacSys_Parts
+SOP50P490X110-10N
+DRV2605LDGSR-1
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+Signature
+
+
+0
+0
+0
+SamacSys_Parts
+lizard_logo
+
+
+0
+0
+0
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
