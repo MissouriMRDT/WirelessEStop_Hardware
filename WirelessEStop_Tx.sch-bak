@@ -1494,9 +1494,9 @@ F 3 "" H 3050 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 5400 8450 5300
-Text GLabel 8200 5300 1    39   Input ~ 0
-TXD
 Text GLabel 6450 5300 1    39   Input ~ 0
+TXD
+Text GLabel 8200 5300 1    39   Input ~ 0
 RXD
 $Comp
 L Device:R R28

@@ -1,4 +1,4 @@
-17214666825484759
+17217828609861539
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46186,6 +46186,13 @@ ESP2866EX_Chip
 33
 33
 ESP8266
+MODULE_ESP-WROOM-02U
+Front Face Top
+
+0
+19
+19
+ESP8266
 NodeMCU-LoLinV3
 
 
@@ -46208,6 +46215,13 @@ Signature
 0
 ESP8266
 lizard_logo
+
+
+0
+0
+0
+ESP8266
+wifipower
 
 
 0
