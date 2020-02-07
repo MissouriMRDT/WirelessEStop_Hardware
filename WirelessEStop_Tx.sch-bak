@@ -220,7 +220,7 @@ F 3 "" H 6500 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 6750 2500 6750
-Text GLabel 2100 2550 0    39   Output ~ 0
+Text GLabel 2100 2750 0    39   Output ~ 0
 SW_Flash
 Wire Wire Line
 	3100 7450 3200 7450
@@ -1848,5 +1848,20 @@ Wire Wire Line
 Wire Wire Line
 	2150 2450 2100 2450
 Wire Wire Line
-	2100 2550 2150 2550
+	2100 2750 2150 2750
+Wire Wire Line
+	1700 2550 1700 2600
+Wire Wire Line
+	1700 2550 2150 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5E3FECC5
+P 1700 2600
+F 0 "#PWR?" H 1700 2350 50  0001 C CNN
+F 1 "GND" H 1600 2600 50  0000 C CNN
+F 2 "" H 1700 2600 50  0001 C CNN
+F 3 "" H 1700 2600 50  0001 C CNN
+	1    1700 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
